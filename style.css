@@ -1,0 +1,30 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    background-color: rgb(222, 238, 242);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(199, 230, 236);
+    color: black;
+    text-align: center;
+    padding: 100px 60px;
+    border-radius: 10px;
+    box-shadow: 10px 12px rgb(178, 214, 236);
+}
+input{
+    border-radius: 5px;
+    background-color: rgb(216, 225, 233);
+}
+button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(116, 196, 214);
+}
